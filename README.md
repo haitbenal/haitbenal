@@ -1,9 +1,3 @@
-Here’s a cleaner, more professional, and more impactful version of your README — structured to highlight growth, ambition, and technical focus while keeping personality.
-
-You can copy-paste this directly:
-
----
-
 # Hi, I'm Hichame (Diplo) 👋
 
 <img align="right" alt="Coding GIF" height="180px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
