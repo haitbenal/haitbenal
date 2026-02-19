@@ -4,14 +4,14 @@
 
 ## 🚀 Full-Stack Developer Student
 
-🔭 Currently studying at **Zone 01 Oujda**
-💻 Passionate about building real-world web applications
-📚 Currently learning: **Go, Java, Rust, JavaScript**
-🎯 Goal: Become a professional software engineer
-🎱 Fun fact: I enjoy playing pool and snooker
-
+-🔭 Currently studying at **Zone 01 Oujda**<br>
+-💻 Passionate about building real-world web applications<br>
+-📚 Currently learning: **Go, Java, Rust, JavaScript**<br>
+-🎯 Goal: Become a professional software engineer<br>
+-🎱 Fun fact: I enjoy playing pool and snooker<br>
+<br>
 I’m deeply focused on mastering both frontend and backend technologies while constantly pushing myself to explore new tools, systems, and architectures.
-
+<br>
 ---
 
 ## 🛠 Tech Stack & Tools
