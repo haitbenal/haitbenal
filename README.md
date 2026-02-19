@@ -71,13 +71,3 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 
 > Keep building. Keep learning. Never stop creating.
 
----
-
-If you want, I can also create:
-
-* 🔥 A more minimalist professional version (for recruiters)
-* 💎 A more creative/dev aesthetic version
-* 🧠 A version optimized specifically to attract tech recruiters
-* 🏆 A version focused on your PFE and SaaS projects
-
-Tell me which direction you want.
