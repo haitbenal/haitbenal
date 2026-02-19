@@ -42,9 +42,9 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 
 ## 📊 GitHub Statistics
 
-<div align="center"> 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=haitbenal&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40" />
-</div>
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=haitbenal&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=haitbenal&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=haitbenal&layout=compact&theme=radical)
 
 ---
 
