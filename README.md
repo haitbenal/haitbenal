@@ -1,20 +1,29 @@
+<div align="center">
+
 # Hi, I'm Hichame (Diplo) 👋
 
-<img align="right" alt="Coding GIF" height="180px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
+### 🚀 Full-Stack Developer Student | 🇲🇦 Morocco | 💡 Building real-world web applications
 
-## 🚀 Full-Stack Developer Student
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hichame-ait-benalla/)[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:its.aitbenalla.hichame@gmailcom)
 
--🔭 Currently studying at **Zone 01 Oujda**<br>
--💻 Passionate about building real-world web applications<br>
--📚 Currently learning: **Go, Java, Rust, JavaScript**<br>
--🎯 Goal: Become a professional software engineer<br>
--🎱 Fun fact: I enjoy playing pool and snooker<br>
-<br>
-I’m deeply focused on mastering both frontend and backend technologies while constantly pushing myself to explore new tools, systems, and architectures.
-<br>
+</div>
+
 ---
 
-## 🛠 Tech Stack & Tools
+## 🎯 About Me
+-🔭 Currently studying at Zone 01 Oujda\
+-💻 Passionate about building real-world web applications\
+-📚 Currently learning: Go, Java, Rust, JavaScript\
+-🎯 Goal: Become a professional software engineer\
+-🎱 Fun fact: I enjoy playing pool
+
+I’m deeply focused on mastering both frontend and backend technologies while constantly pushing myself to explore new tools, systems, and architectures.
+
+
+
+---
+
+# 🛠 Tech Stack & Tools
 
 ### 💡 Programming Languages
 
@@ -38,30 +47,29 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square\&logo=visual-studio-code\&logoColor=ffffff)
 ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square\&logo=npm)
 
----
-
-## 📊 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=haitbenal&show_icons=true&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=haitbenal&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=haitbenal&layout=compact&theme=radical)
+</div>
 
 ---
 
-## 🎧 Spotify
+## 📊 GitHub Analytics
 
-[![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)](https://open.spotify.com/user/31b3q2mj7uwdfvnujt7h26smd7sq)
-
----
-
-## 📬 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square\&logo=linkedin\&logoColor=ffffff)](https://www.linkedin.com/in/hichame-ait-benalla/)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square\&logo=instagram\&logoColor=ffffff)](https://www.instagram.com/diplo.spy)
+<div align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=haitbenal&theme=tokyonight" alt="GitHub Streak"/>
+</div>
 
 ---
 
-## 🌱 Philosophy
+## 🤝 Let's Connect!
 
-> Keep building. Keep learning. Never stop creating.
+<div align="center">
 
+I'm always interested in collaborating on interesting projects or just having a chat about technology, movies, or gaming!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hichame-ait-benalla/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haitbenal)
+
+### 💼 Open to Freelance Opportunities
+
+</div>
+
+---
