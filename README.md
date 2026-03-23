@@ -53,10 +53,14 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=haitbenal&theme=tokyonight" alt="GitHub Streak"/>
-</div>
+</div> -->
 
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=haitbenal\&theme=github_dark)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=haitbenal\&theme=github_dark)
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=haitbenal\&theme=github_dark)
+  
 ---
 
 ## 🤝 Let's Connect!
