@@ -28,16 +28,22 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 ### 💡 Programming Languages
 
 ![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square\&logo=python\&logoColor=ffffff)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1C?style=flat-square\&logo=javascript\&logoColor=000000)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square\&logo=go\&logoColor=ffffff)
+<!-- 
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square\&logo=java\&logoColor=ffffff)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square\&logo=rust\&logoColor=ffffff)
-
+</div> -->
 ### 🌐 Frontend & Backend
-
+<!-- 
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square\&logo=react\&logoColor=ffffff)
 ![Nodejs](https://img.shields.io/badge/-Node.js-339933?style=flat-square\&logo=node.js\&logoColor=ffffff)
+</div> -->
 ![HTML5](https://img.shields.io/badge/-HTML5-E44D27?style=flat-square\&logo=html5\&logoColor=ffffff)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=ffffff)
+![Javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000)
+![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=ffffff)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=ffffff)
+![MYSQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff)
 
 ### ⚙️ Tools & Platforms
 
@@ -46,6 +52,7 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 ![GitLab](https://img.shields.io/badge/-GitLab-FCA121?style=flat-square\&logo=gitlab)
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square\&logo=visual-studio-code\&logoColor=ffffff)
 ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square\&logo=npm)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=ffffff)
 
 </div>
 
