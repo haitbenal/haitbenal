@@ -64,9 +64,10 @@ I’m deeply focused on mastering both frontend and backend technologies while c
 
 <div align="center">
 
-  ![](https://github-readme-stats.vercel.app/api?username=haitbenal&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=8B0000&icon_color=8B0000&text_color=c9c9c9)
-  ![](https://streak-stats.demolab.com/?user=haitbenal&theme=dark&hide_border=true&background=0D1117&ring=8B0000&fire=8B0000&currStreakLabel=8B0000)
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=haitbenal\&theme=github_dark)
+<img src="https://github-readme-stats-fast.vercel.app/api?username=haitbenal&show_icons=true&theme=radical&hide_border=true" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=haitbenal&layout=compact&theme=radical&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats-fast.vercel.app/api/streak?username=haitbenal&theme=radical&hide_border=true" width="60%"/>
 
 </div>
 
