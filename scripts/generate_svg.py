@@ -57,7 +57,7 @@ SECTIONS = [
 ]
 
 # ---- Look ----------------------------------------------------------------
-BG, BORDER = "#161b22", "#30363d"
+BG, BORDER = "#000000", "#30363d"
 FG, DIM, KEY, ART = "#e6edf3", "#6e7681", "#C2477A", "#e6edf3"
 FONT_SIZE = 14
 CHAR_W = 8.4          # monospace advance at 14px
