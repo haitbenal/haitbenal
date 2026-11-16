@@ -1,0 +1,44 @@
+name: Update profile SVG
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - dark.svg
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-svg
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVG
+        env:
+          # Optional: add a personal access token as the ACCESS_TOKEN secret to
+          # also count private-repo contributions. Falls back to GITHUB_TOKEN.
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/generate_svg.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add dark.svg
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "chore: update profile stats [skip ci]"
+          git push
