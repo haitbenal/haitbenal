@@ -41,4 +41,10 @@ jobs:
           git add dark.svg
           git diff --cached --quiet && { echo "No changes"; exit 0; }
           git commit -m "chore: update profile stats [skip ci]"
-          git push
+          # Another run or a manual push may have moved main meanwhile:
+          # rebase onto it (keeping our freshly generated dark.svg) and retry.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
