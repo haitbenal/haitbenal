@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the profile card SVG (dark.svg) with live GitHub stats.
 
-Reads the braille ASCII art from ascci-art.txt, fetches stats from the
+Reads the braille ASCII art from ascii-art.txt, fetches stats from the
 GitHub GraphQL API and writes dark.svg. Uses only the standard library.
 
 Env:
@@ -17,7 +17,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
-ART_FILE = ROOT / "ascci-art.txt"
+ART_FILE = ROOT / "ascii-art.txt"
 OUT_FILE = ROOT / "dark.svg"
 USER = os.environ.get("GH_USER", "haitbenal")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
