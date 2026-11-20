@@ -21,7 +21,6 @@ ART_FILE = ROOT / "ascci-art.txt"
 OUT_FILE = ROOT / "dark.svg"
 USER = os.environ.get("GH_USER", "haitbenal")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
-SCOPES = None
 
 # ---- Static profile info (edit freely) ----------------------------------
 NAME = "Hichame Ait Benalla"
@@ -79,8 +78,6 @@ def gql(query, variables):
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         body = json.load(r)
-        global SCOPES
-        SCOPES = r.headers.get("X-OAuth-Scopes")
     if body.get("errors"):
         raise RuntimeError(body["errors"])
     return body["data"]
@@ -137,32 +134,20 @@ def fetch_stats():
     start = created
     while start < now:
         end = min(start + dt.timedelta(days=365), now)
-        d = gql(
+        cc = gql(
             """query($login: String!, $from: DateTime!, $to: DateTime!) {
-              viewer { login }
               user(login: $login) {
                 contributionsCollection(from: $from, to: $to) {
                   totalCommitContributions
                   restrictedContributionsCount
-                  commitContributionsByRepository(maxRepositories: 100) {
-                    repository { nameWithOwner isPrivate }
-                    contributions { totalCount }
-                  }
                 }
               }
             }""",
             {"login": USER, "from": start.isoformat(), "to": end.isoformat()},
-        )
-        cc = d["user"]["contributionsCollection"]
-        commits += cc["totalCommitContributions"]
-        # Diagnostics (shown in the Actions log)
-        print(f"[debug] viewer={d['viewer']['login']} scopes={SCOPES!r}")
-        print(f"[debug] {start:%Y-%m-%d}..{end:%Y-%m-%d}: commits="
-              f"{cc['totalCommitContributions']} hidden_private={cc['restrictedContributionsCount']}")
-        for r in cc["commitContributionsByRepository"]:
-            repo = r["repository"]
-            print(f"[debug]   {r['contributions']['totalCount']:5} "
-                  f"{'private' if repo['isPrivate'] else 'public '} {repo['nameWithOwner']}")
+        )["user"]["contributionsCollection"]
+        # Commits the token can see + private contributions GitHub hides from
+        # it (mostly commits in private/org repos; ~0 with a full-scope token).
+        commits += cc["totalCommitContributions"] + cc["restrictedContributionsCount"]
         start = end
 
     return {
